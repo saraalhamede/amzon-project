@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon</title>
+    <link rel="stylesheet" href="style/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-container">
+        <a href="#" class="logo" aria-label="Home">
+          <img src="picture/amazonlogo.webp" alt="Logo" />
+        </a>
+        <div class="search" role="search">
+          <input
+            type="search"
+            placeholder="Search Amazon"
+            aria-label="Search" />
+          <button aria-label="Search">Search</button>
+        </div>
+
+        <nav class="header-nav" aria-label="Main navigation">
+          <a href="#" class="nav-item">Hello, Sign in</a>
+          <a href="#" class="nav-item">Orders</a>
+          <a href="#" class="nav-item cart"
+            >Cart <span class="cart-count">0</span></a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="main-hero">
+        <div class="hero-wrap container">
+          <div class="hero-copy">
+            <span class="eyebrow">Limited Time</span>
+            <h1>Discover amazing daily deals</h1>
+            <p class="lead">
+              Curated offers across electronics, home, and more — refreshed
+              every day.
+            </p>
+            <form class="hero-search" role="search" action="#">
+              <input
+                type="search"
+                placeholder="Search for products, brands and more"
+                aria-label="Hero search" />
+              <button aria-label="Search">Search</button>
+            </form>
+            <div class="hero-cta">
+              <a href="#" class="btn primary">Shop Deals</a>
+              <a href="#" class="btn outline">See New Arrivals</a>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-card">
+              <img src="picture/heroAtr.webp" alt="Showcase" />
+            </div>
+            <div class="decor-blob" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-categories" aria-label="Featured categories">
+        <div class="container">
+          <h2>Shop by Category</h2>
+          <div class="category-grid">
+            <a class="cat-card" href="#">
+              <img src="picture/elecPic.avif" alt="Electronics" />
+              <div class="cat-overlay"><h3>Electronics</h3></div>
+            </a>
+            <a class="cat-card" href="#">
+              <img src="picture/homeCategory.webp" alt="Home" />
+              <div class="cat-overlay"><h3>Home</h3></div>
+            </a>
+            <a class="cat-card" href="#">
+              <img src="picture/toys.webp" alt="Toys" />
+              <div class="cat-overlay"><h3>Toys</h3></div>
+            </a>
+            <a class="cat-card" href="#">
+              <img src="picture/fashion.webp" alt="Fashion" />
+              <div class="cat-overlay"><h3>Fashion</h3></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="deals" aria-label="Deals and featured products">
+        <div class="container">
+          <div class="deal-grid">
+            <div class="deal-card">
+              <h3>Deal of the Day</h3>
+              <p class="deal-title">Portable Bluetooth Speaker — 50% off</p>
+              <p class="deal-price">Now $39.99</p>
+              <a class="btn primary" href="#">Buy Now</a>
+            </div>
+
+            <div class="product-strip">
+              <h4>Customers also bought</h4>
+              <div class="strip-scroll" role="list">
+                <div class="tile" role="listitem">
+                  <img src="picture/BluetoothEarbuds.jpg" alt="Product1" />
+                  <div class="tile-info">
+                    Bluetooth Earbuds
+                    <div class="price">$29.99</div>
+                  </div>
+                </div>
+                <div class="tile" role="listitem">
+                  <img src="picture/SmartPlug.avif" alt="Product 2" />
+                  <div class="tile-info">
+                    Smart Plug
+                    <div class="price">$14.99</div>
+                  </div>
+                </div>
+                <div class="tile" role="listitem">
+                  <img src="picture/LEDDeskLamp.webp" alt="Product 3" />
+                  <div class="tile-info">
+                    LED Desk Lamp
+                    <div class="price">$22.99</div>
+                  </div>
+                </div>
+                <div class="tile" role="listitem">
+                  <img src="picture/PortableCharger.webp" alt="Product 4" />
+                  <div class="tile-info">
+                    Portable Charger
+                    <div class="price">$19.99</div>
+                  </div>
+                </div>
+                <div class="tile" role="listitem">
+                  <img src="picture/TravelMug.jpg" alt="Product 5" />
+                  <div class="tile-info">
+                    Travel Mug
+                    <div class="price">$12.99</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo-strips" aria-hidden="true">
+        <div class="container promo-grid">
+          <div class="promo">Free Delivery over $50</div>
+          <div class="promo">Easy Returns 30 days</div>
+          <div class="promo">Secure Payments</div>
+        </div>
+      </section>
+
+      <section class="newsletter" aria-label="Newsletter">
+        <div class="container">
+          <h3>Get the latest deals</h3>
+          <form class="newsletter-form">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              aria-label="Email" />
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="footer-inner container">
+          <div class="footer-column">
+            <h4>Shop</h4>
+            <a href="#">Fashion</a>
+            <a href="#">Electronics</a>
+            <a href="#">Home</a>
+          </div>
+          <div class="footer-column">
+            <h4>Help</h4>
+            <a href="#">Customer Service</a>
+            <a href="#">Returns</a>
+          </div>
+          <div class="footer-column">
+            <h4>About</h4>
+            <a href="#">Careers</a>
+            <a href="#">Press</a>
+          </div>
+        </div>
+        <div class="footer-legal">© 2025 Amazon Store</div>
+      </footer>
+    </main>
+  </body>
+</html>
